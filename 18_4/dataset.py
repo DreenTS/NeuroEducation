@@ -35,7 +35,7 @@ def prepare_dataset(img_path, last_train, last_validation, last_test):
     IMAGE_PATH = img_path
 
     # Папка в которой будем создавать выборки
-    BASE_DIR = 'dataset/'
+    BASE_DIR = '18_4/dataset/'
 
     # Определение списка имен классов
     CLASS_LIST = sorted(os.listdir(IMAGE_PATH))
@@ -72,10 +72,9 @@ def prepare_dataset(img_path, last_train, last_validation, last_test):
     for class_label in range(CLASS_COUNT):  # Перебор по всем классам по порядку номеров (их меток)
         class_name = CLASS_LIST[class_label]  # Выборка имени класса из списка имен
 
-        # Создаем обучающую выборку для заданного класса из диапазона (0-2000)
+        # Создаем обучающую выборки для заданных классов
         create_dataset(IMAGE_PATH, train_dir, class_name, 0, last_train)
-        # Создаем проверочную выборку для заданного класса из диапазона (2000-3000)
         create_dataset(IMAGE_PATH, validation_dir, class_name, last_train, last_validation)
-        # Создаем тестовую выборку для заданного класса из диапазона (3000-4000)
         create_dataset(IMAGE_PATH, test_dir, class_name, last_validation, last_test)
+
     return train_dir, validation_dir, test_dir
