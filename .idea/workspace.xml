@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1166c0a2-51d7-4ac6-ac0a-91ab415b6c77" name="Changes" comment="19_4 task">
-      <change afterPath="$PROJECT_DIR$/19_4/big model acc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_4/big model loss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_4/big model results.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_4/small model acc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_4/small model loss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_4/small model results.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_4/acc_and_loss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_4/confusion_matrix_best_pretrained.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_4/dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_4/graphs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_4/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_4/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_4/results.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20_4/samples.py" afterDir="false" />
+    <list default="true" id="1166c0a2-51d7-4ac6-ac0a-91ab415b6c77" name="Changes" comment="20_4 task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20_4/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/20_4/model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,13 +232,31 @@
       <option name="project" value="LOCAL" />
       <updated>1719369559741</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="19_4 task added results">
+      <option name="closed" value="true" />
+      <created>1719642114036</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719642114036</updated>
+    </task>
+    <task id="LOCAL-00004" summary="20_4 task">
+      <option name="closed" value="true" />
+      <created>1719642126187</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719642126187</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
     <MESSAGE value="19_4 task" />
-    <option name="LAST_COMMIT_MESSAGE" value="19_4 task" />
+    <MESSAGE value="19_4 task added results" />
+    <MESSAGE value="20_4 task" />
+    <option name="LAST_COMMIT_MESSAGE" value="20_4 task" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

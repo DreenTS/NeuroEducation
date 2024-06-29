@@ -17,7 +17,7 @@ def get_base_dataset(dataset_dir_name) -> dict:
                     path = os.path.join(author_path, file_name)
                     # Сохраняем текст
                     with open(path, 'r', encoding='utf-8', errors='ignore') as f:
-                        text = f' {f.read().replace("\n", " ")}'
+                        text = f.read().replace("\n", " ")
                         try:
                             result_dict[author] += text
                         except KeyError:
