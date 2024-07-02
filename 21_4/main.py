@@ -47,7 +47,13 @@ if __name__ == '__main__':
     # Создаем модель
     model = get_model(index_dict=index_dict, win_size=win_size, labels_len=len(labels))
     CALLBACKS = [
-        ModelCheckpoint(filepath='pretrain/20_4_best_model_pretrain.keras',
+        ModelCheckpoint(filepath='pretrain/21_4_best_model_pretrain.weights.h5',
+                        monitor='val_acc',
+                        save_weights_only=True,
+                        save_best_only=True,
+                        mode='max',
+                        verbose=0),
+        ModelCheckpoint(filepath='pretrain/21_4_best_model_pretrain.keras',
                         monitor='val_acc',
                         save_best_only=True,
                         mode='max',
@@ -58,14 +64,15 @@ if __name__ == '__main__':
     model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['acc'])
 
     # Запускаем процесс обучения
-    history = model.fit(x_train, y_train, epochs=35, batch_size=64, validation_data=(x_val, y_val), callbacks=CALLBACKS)
+    history = model.fit(x_train, y_train, epochs=35, batch_size=128, validation_data=(x_val, y_val), callbacks=CALLBACKS)
 
     # Выводим историю обучения
     show_plot(history)
 
     # Загрузка предобученной модели
-    model = load_model('pretrain/20_4_best_model_pretrain.keras')
+    model = load_model('pretrain/21_4_best_model_pretrain.keras')
 
     # Предсказываем на тестовых данных
     y_pred = model.predict(x_test)
     show_confusion_matrix(y_test, y_pred, list(sequences.keys()))
+

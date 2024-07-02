@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1166c0a2-51d7-4ac6-ac0a-91ab415b6c77" name="Changes" comment="20_4 task">
+    <list default="true" id="1166c0a2-51d7-4ac6-ac0a-91ab415b6c77" name="Changes" comment="20_4 task minor_fixes">
+      <change afterPath="$PROJECT_DIR$/21_4/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21_4/graphs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21_4/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21_4/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21_4/samples.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_4/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/20_4/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20_4/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/20_4/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,22 +53,32 @@
   "keyToString": {
     "Python.19_4_main.executor": "Run",
     "Python.20_4_main.executor": "Run",
+    "Python.21_4_main.executor": "Run",
     "Python.a.executor": "Run",
     "Python.dataset.executor": "Run",
     "Python.main (1).executor": "Run",
     "Python.main.executor": "Run",
     "Python.model (1).executor": "Run",
     "Python.model.executor": "Run",
+    "Python.p.executor": "Run",
     "Python.probe (1).executor": "Debug",
     "Python.probe.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/PyCharmProjects/NeuroEducation/18_4/main.py",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "last_opened_file_path": "C:/PyCharmProjects/NeuroEducation/21_4",
+    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.20_4_main">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PyCharmProjects\NeuroEducation\21_4" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PyCharmProjects\NeuroEducation\20_4\pretrain" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.p">
     <configuration name="19_4_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NeuroEducation" />
       <option name="ENV_FILES" value="" />
@@ -112,6 +127,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="21_4_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NeuroEducation" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="TF_ENABLE_ONEDNN_OPTS" value="$TF_ENABLE_ONEDNN_OPTS$" />
+        <env name="TF_CPP_MIN_LOG_LEVEL" value="2" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21_4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21_4/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="NeuroEducation" />
       <option name="ENV_FILES" value="" />
@@ -136,22 +175,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="p" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="NeuroEducation" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="TF_ENABLE_ONEDNN_OPTS" value="$TF_ENABLE_ONEDNN_OPTS$" />
-        <env name="TF_CPP_MIN_LOG_LEVEL" value="2" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/18_4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/21_4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18_4/model.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/21_4/p.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,17 +223,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.p" />
+      <item itemvalue="Python.21_4_main" />
       <item itemvalue="Python.20_4_main" />
       <item itemvalue="Python.probe" />
       <item itemvalue="Python.19_4_main" />
-      <item itemvalue="Python.model" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.p" />
+        <item itemvalue="Python.21_4_main" />
         <item itemvalue="Python.20_4_main" />
         <item itemvalue="Python.probe" />
         <item itemvalue="Python.19_4_main" />
-        <item itemvalue="Python.model" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719642126187</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="20_4 task minor_fixes">
+      <option name="closed" value="true" />
+      <created>1719642837938</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719642837938</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -256,12 +303,13 @@
     <MESSAGE value="19_4 task" />
     <MESSAGE value="19_4 task added results" />
     <MESSAGE value="20_4 task" />
-    <option name="LAST_COMMIT_MESSAGE" value="20_4 task" />
+    <MESSAGE value="20_4 task minor_fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="20_4 task minor_fixes" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="median" language="Python" />
+        <watch expression="list(sequences.values())" language="Python" />
       </configuration>
     </watches-manager>
   </component>
